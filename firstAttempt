@@ -1,0 +1,27 @@
+// cac9995_hw2_q4.cpp : This file contains the 'main' function. Program execution begins and ends there.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int firstInteger;
+	int secondInteger;
+	double firstDouble;
+	double secondDouble;
+
+	cout << "Please enter two positive integers, seperated by a space: ";
+	cin >> firstInteger >> secondInteger;
+
+	firstDouble = (double)firstInteger;
+	secondDouble = (double)secondInteger;
+
+	cout << firstInteger << " + " << secondInteger << " = " << firstInteger + secondInteger<<"\n";
+	cout << firstInteger << " - " << secondInteger << " = " << firstInteger - secondInteger << "\n";
+	cout << firstInteger << " * " << secondInteger << " = " << firstInteger * secondInteger << "\n";
+	cout << firstInteger << " / " << secondInteger << " = " << firstDouble / secondDouble << "\n";
+	cout << firstInteger << " div " << secondInteger << " = " << firstInteger / secondInteger << "\n";
+	cout << firstInteger << " mod " << secondInteger << " = " << firstInteger % secondInteger << "\n";
+
+	return 0;
+}
